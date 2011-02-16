@@ -1,6 +1,6 @@
 <?php
 
-namespace Bundle\TextBundle\Templating\Helper;
+namespace EWZ\TextBundle\Templating\Helper;
 
 use Symfony\Component\Templating\Helper\Helper;
 

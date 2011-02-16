@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://www.symfony-project.org/schema/dic/services http://www.symfony-project.org/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="templating.helper.text.class">Bundle\TextBundle\Templating\Helper\TextHelper</parameter>
+        <parameter key="templating.helper.text.class">EWZ\TextBundle\Templating\Helper\TextHelper</parameter>
     </parameters>
 
     <services>

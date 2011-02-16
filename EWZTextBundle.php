@@ -1,9 +1,9 @@
 <?php
 
-namespace Bundle\TextBundle;
+namespace EWZ\TextBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class TextBundle extends Bundle
+class EWZTextBundle extends Bundle
 {
 }
