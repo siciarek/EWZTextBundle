@@ -45,6 +45,6 @@ class EWZTextExtension extends Extension
      */
     public function getNamespace()
     {
-        return 'http://www.symfony-project.org/schema/dic/ewz/text';
+        return 'http://symfony.com/schema/dic/ewz/text';
     }
 }
