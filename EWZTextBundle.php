@@ -1,6 +1,6 @@
 <?php
 
-namespace EWZ\TextBundle;
+namespace EWZ\Bundle\TextBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

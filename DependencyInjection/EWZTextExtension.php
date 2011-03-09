@@ -1,6 +1,6 @@
 <?php
 
-namespace EWZ\TextBundle\DependencyInjection;
+namespace EWZ\Bundle\TextBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
