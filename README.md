@@ -93,7 +93,7 @@ function truncate($text, $length = 30, $truncate_string = '...', $truncate_lasts
 
 function highlight($text, $phrase, $highlighter = '<strong class="highlight">\\1</strong>');
 
-excerpt($text, $phrase, $radius = 100, $excerpt_string = '...', $excerpt_space = false);
+function excerpt($text, $phrase, $radius = 100, $excerpt_string = '...', $excerpt_space = false);
 
 function wrap($text, $line_width = 80);
 
