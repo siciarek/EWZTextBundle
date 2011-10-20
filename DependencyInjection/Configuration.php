@@ -2,7 +2,6 @@
 
 namespace EWZ\Bundle\TextBundle\DependencyInjection;
 
-use Symfony\Component\Process\ExecutableFinder;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
