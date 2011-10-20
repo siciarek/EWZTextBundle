@@ -13,9 +13,9 @@ If you're using the `bin/vendors.php` method to manage your vendor libraries,
 add the following entry to the `deps` in the root of your project file:
 
 ```
-[EWZTimeBundle]
+[EWZTextBundle]
     git=http://github.com/excelwebzone/EWZTextBundle.git
-    target=bundles/EWZ/Bundle/EWZTextBundle
+    target=/bundles/EWZ/Bundle/EWZTextBundle
 ```
 
 Next, update your vendors by running:
@@ -81,7 +81,7 @@ Congratulations! You're ready!
 This bundle only for PHP templates, for example:
 
 ``` php
-<?php echo $view['text']->excerpt('"hello my world", "my"'); // "...lo my wo..." ?>
+<?php echo $view['ewz_text']->excerpt('hello my world', 'my'); // "...lo my wo..." ?>
 ```
 
 Here are the supported function:

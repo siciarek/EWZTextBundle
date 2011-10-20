@@ -5,12 +5,12 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="templating.helper.text.class">EWZ\Bundle\TextBundle\Templating\Helper\TextHelper</parameter>
+        <parameter key="ewz_text.text_helper.class">EWZ\Bundle\TextBundle\Templating\Helper\TextHelper</parameter>
     </parameters>
 
     <services>
-        <service id="templating.helper.text" class="%templating.helper.text.class%">
-            <tag name="templating.helper" alias="text" />
+        <service id="ewz_text.text_helper" class="%ewz_text.text_helper.class%">
+            <tag name="templating.helper" alias="ewz_text" />
         </service>
     </services>
 </container>
