@@ -15,7 +15,7 @@ add the following entry to the `deps` in the root of your project file:
 ```
 [EWZTextBundle]
     git=http://github.com/excelwebzone/EWZTextBundle.git
-    target=/bundles/EWZ/Bundle/EWZTextBundle
+    target=/bundles/EWZ/Bundle/TextBundle
 ```
 
 Next, update your vendors by running:
@@ -38,7 +38,7 @@ $ mkdir -pv vendor/bundles/EWZ/Bundle
 Next, add the necessary submodule:
 
 ``` bash
-$ git submodule add git://github.com/excelwebzone/EWZTextBundle.git vendor/bundles/EWZ/Bundle/EWZTextBundle
+$ git submodule add git://github.com/excelwebzone/EWZTextBundle.git vendor/bundles/EWZ/Bundle/TextBundle
 ```
 
 ### Step2: Configure the autoloader
