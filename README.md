@@ -1,7 +1,7 @@
 EWZTextBundle
 =============
 
-This bundle provides easy text helper for Symfony2.
+This bundle provides easy text helper for Symfony applications.
 
 ## Installation
 
