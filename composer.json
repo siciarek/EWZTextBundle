@@ -1,0 +1,22 @@
+{
+    "name": "excelwebzone/text-bundle",
+    "description": "This bundle provides various text functionalities",
+    "keywords": ["truncate", "highlight", "excerpt", "wrap"],
+    "homepage": "https://github.com/excelwebzone/EWZTextBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael H. Arieli",
+            "email": "excelwebzone@gmail.com",
+            "homepage": "http://excelwebzone.com/"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "EWZ\\Bundle\\TextBundle": "" }
+    },
+    "target-dir": "EWZ/Bundle/TextBundle"
+}
