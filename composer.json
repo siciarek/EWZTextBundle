@@ -1,5 +1,5 @@
 {
-    "name": "excelwebzone/text-bundle",
+    "name": "siciarek/text-bundle",
     "description": "This bundle provides various text functionalities",
     "keywords": ["truncate", "highlight", "excerpt", "wrap"],
     "homepage": "https://github.com/excelwebzone/EWZTextBundle",
@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "2.*"
+        "symfony/framework-bundle": ">=2.*"
     },
     "autoload": {
         "psr-0": { "EWZ\\Bundle\\TextBundle": "" }
